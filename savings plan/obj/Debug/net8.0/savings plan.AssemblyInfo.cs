@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("savings plan")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3d7c68a76f64d2b257d38eee0693bb33491f0f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("savings plan")]
 [assembly: System.Reflection.AssemblyTitleAttribute("savings plan")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

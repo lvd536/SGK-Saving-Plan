@@ -1,5 +1,5 @@
 ﻿// Калькулятор заложенных средств под процентную ставку
-DateTime dateTime = new DateTime(2024, 12, 13, 10, 25, 10);
+DateTime dateTime = DateTime.Now;
 
 Console.WriteLine("Введите кол-во средств, которое вы собираетесь заложить: ");
 int money = int.Parse(Console.ReadLine());
@@ -13,7 +13,7 @@ Console.WriteLine($"Ваша прибыль за {moneylong} месяцев: {re
 
 for (int i = 0; i < 12; i++)
 {
-    
-    Console.WriteLine($"Ваша прибыль за {i} месяцев {dateTime.AddMonths(i)} = {Math.Round(money * ((procent / 12 ) / 100)) * i}");
+    var mathprofit = money + Math.Round(money * ((procent / 12) / 100)) * i;
+    Console.WriteLine($"Ваша прибыль за {i} месяц {dateTime.AddMonths(i)} = {Math.Round(money * ((procent / 12 ) / 100)) * i}. Общий баланс: {mathprofit}");
     
 }
