@@ -13,7 +13,7 @@ Console.WriteLine($"Ваша прибыль за {moneylong} месяцев: {re
 
 for (int i = 0; i < 12; i++)
 {
-    var mathprofit = money + Math.Round(money * ((procent / 12) / 100)) * i;
+    double mathprofit = money + Math.Round(money * ((procent / 12) / 100)) * i;
     Console.WriteLine($"Ваша прибыль за {i} месяц {dateTime.AddMonths(i)} = {Math.Round(money * ((procent / 12 ) / 100)) * i}. Общий баланс: {mathprofit}");
     
 }
